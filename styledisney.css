@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url('./assets/font/avenir-roman.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(img/fundodisney.jpg) no-repeat top center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Avenir Roman', sans-serif;
+}
+
+.btn {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f9f9f9;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 8px 16px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #f9f9f9;
+    color: #000;
+}
+
+img.franquias {
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.hero-content {
+    margin-top: -10px;
+    padding-left: 80px;
+}
+
+.hero-content > p {
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+img.logo {
+    max-width: 160px;
+ 
+}
+
+h1 {
+    color: #f9f9f9;
+    font-size: 43px;
+    line-height: 53px;
+    margin: 20px 0 30px 0;
+}
+
+#price-container {
+    display: flex;
+}
+
+.price-item {
+    color: rgba(192, 192, 192, 0.8);
+    width: 300px;
+    max-width: 100%;
+}
+
+.price-item:first-child {
+    display: grid;
+}
+
+.price-item:first-child a {
+    align-self: end;
+}
+
+.price-item span {
+    color: #f9f9f9;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.price-item + .price-item {
+    margin-left: 32px;
+}
+
+.price-item p {
+    margin: 16px 0;
+}
+
+.price-item p:first-child {
+    margin: 0;
+}
+
+.price-item a {
+    background: #0063e5;
+    display: block;
+    border-radius: 4px;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 16.5px 14px;
+    transition: 0.2s ease;
+}
+
+.price-item a:hover {
+    background: #0483ee;
+}
+
+
+
